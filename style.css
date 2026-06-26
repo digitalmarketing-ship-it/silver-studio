@@ -604,9 +604,9 @@ body{
 .jewel-card img{
     width:100%;
     height:380px;
-    object-fit:contain;
+    object-fit:cover;
     background:#111;
-    padding:30px;
+    /* padding:30px; */
     transition:.4s;
 }
 
