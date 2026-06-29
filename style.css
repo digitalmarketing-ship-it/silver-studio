@@ -351,6 +351,11 @@ body{
 .mini-category img{
     max-height:180px;
 }
+@media(max-width:576px){
+    .mini-category img{
+        max-height:105px;
+    }   
+}
 .new-arrivals{
     background:#000;
 }
