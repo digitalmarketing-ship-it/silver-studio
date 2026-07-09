@@ -1403,7 +1403,7 @@ body{
 .banner-img{
 
     width:100%;
-    height:650px;
+    /* height:650px; */
     object-fit:cover;
 
 }
@@ -1467,9 +1467,9 @@ body{
 /* Banner Height */
 
 .banner-img{
-    width:100%;
-    height:600px;
-    object-fit:contain;
+    /* width:100%;
+    height:600px; */
+    object-fit:cover;
     background:#f8f8f8;
 }
 
