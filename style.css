@@ -1,5 +1,5 @@
 body{
-    background:#000;
+    background:#2f2d2d;
     color:#fff;
     overflow-x:hidden;
     font-family:Arial, sans-serif;
@@ -7,7 +7,7 @@ body{
 
 /* Navbar */
 .navbar{
-    background:#000;
+    background:#2f2d2d;
     border-bottom:1px solid rgba(255,255,255,0.1);
     padding:20px 0;
 }
@@ -37,7 +37,7 @@ body{
     min-height:100vh;
     display:flex;
     align-items:center;
-    background:#000;
+    background:#2f2d2d;
 }
 
 .hero-content h1{
@@ -57,7 +57,7 @@ body{
 
 .shop-btn{
     background:#fff;
-    color:#000;
+    color:#2f2d2d;
     padding:14px 35px;
     border:none;
     text-decoration:none;
@@ -67,7 +67,7 @@ body{
 
 .shop-btn:hover{
     background:silver;
-    color:#000;
+    color:#2f2d2d;
 }
 
 .hero-image{
@@ -112,7 +112,7 @@ body{
 
 }
 .design-section{
-    background:#000;
+    background:#2f2d2d;
     padding:100px 0;
 }
 
@@ -152,7 +152,7 @@ body{
 
 .btn-shop{
     background:#fff;
-    color:#000;
+    color:#2f2d2d;
     text-decoration:none;
     padding:12px 28px;
     display:inline-block;
@@ -162,7 +162,7 @@ body{
 
 .btn-shop:hover{
     background:silver;
-    color:#000;
+    color:#2f2d2d;
 }
 
 .product-box{
@@ -212,7 +212,7 @@ body{
 
 }
 .offer-section{
-    background:#000;
+    background:#2f2d2d;
     padding-bottom:80px;
 }
 
@@ -243,13 +243,13 @@ body{
 }
 
 .offer-content span{
-    color:silver;
+    color:#2f2d2d;
     font-size:14px;
     letter-spacing:1px;
 }
 
 .offer-content h2{
-    color:#fff;
+    color:#2f2d2d;
     font-size:48px;
     line-height:1.2;
     margin:15px 0 25px;
@@ -257,7 +257,7 @@ body{
 }
 
 .offer-content p{
-    color:#ccc;
+    color:#2f2d2d;
     margin-bottom:25px;
 }
 
@@ -265,7 +265,7 @@ body{
     display:inline-block;
     padding:12px 30px;
     background:#fff;
-    color:#000;
+    color:#2f2d2d;
     text-decoration:none;
     font-weight:600;
 }
@@ -321,7 +321,7 @@ body{
     }
 }
 .mini-category{
-    background:#111;
+    background:#edebe7;
     min-height:220px;
     display:flex;
     align-items:center;
@@ -330,20 +330,20 @@ body{
 }
 
 .mini-category h3{
-    color:#fff;
+    color:#2f2d2d;
     font-size:40px;
     font-family:'Cormorant Garamond', serif;
 }
 
 .mini-category small{
-    color:silver;
+    color:#2f2d2d;
 }
 
 .mini-category a{
     display:inline-block;
     margin-top:15px;
     background:#fff;
-    color:#000;
+    color:#2f2d2d;
     padding:8px 18px;
     text-decoration:none;
 }
@@ -357,7 +357,7 @@ body{
     }   
 }
 .new-arrivals{
-    background:#000;
+    background:#2f2d2d;
 }
 
 .arrival-tag{
@@ -396,7 +396,7 @@ body{
 }
 
 .arrival-filter li.active {
-    background: #000;
+    background: #2f2d2d;
     color: #fff;
 }
 .product-card{
@@ -446,7 +446,7 @@ body{
     top:15px;
     right:15px;
     background:#fff;
-    color:#000;
+    color:#2f2d2d;
     font-size:12px;
     padding:6px 10px;
     z-index:5;
@@ -465,7 +465,7 @@ body{
 
 }
 .luxury-banner-section{
-    background:#000;
+    background:#2f2d2d;
 }
 
 .luxury-content{
@@ -511,7 +511,7 @@ body{
 .shop-btn{
     display:inline-block;
     background:#fff;
-    color:#000;
+    color:#2f2d2d;
     padding:14px 35px;
     text-decoration:none;
     font-weight:600;
@@ -520,7 +520,7 @@ body{
 
 .shop-btn:hover{
     background:silver;
-    color:#000;
+    color:#2f2d2d;
 }
 
 .leaf-decoration{
@@ -603,7 +603,7 @@ body{
 
 }
 .featured-jewels{
-    background:#000;
+    background:#2f2d2d;
 }
 
 .jewel-card img{
@@ -679,8 +679,8 @@ body{
 
 .mini-card{
     width:220px;
-    background:#111;
-    padding:20px;
+    background:##edebe7;
+    /* padding:20px; */
     position:relative;
 }
 
@@ -706,7 +706,7 @@ body{
     top:10px;
     right:10px;
     background:#fff;
-    color:#000 !important;
+    color:#2f2d2d !important;
     padding:4px 8px;
     font-size:10px;
     font-weight:600;
@@ -797,7 +797,7 @@ body{
 }
 
 .testimonial-section{
-    background:#000;
+    background:#2f2d2d;
     padding:100px 0;
 }
 
@@ -921,7 +921,7 @@ body{
 .newsletter-form button{
     background:#fff;
     border:none;
-    color:#000;
+    color:#2f2d2d;
     padding:12px 30px;
     font-weight:600;
 }
@@ -1035,7 +1035,7 @@ body{
 
 .social-icons a:hover{
     background:silver;
-    color:#000;
+    color:#2f2d2d;
 }
 
 .luxury-footer hr{
@@ -1083,7 +1083,7 @@ body{
 
 }
 .instagram-gallery{
-    background:#000;
+    background:#2f2d2d;
 }
 
 .gallery-item{
@@ -1211,7 +1211,7 @@ body{
 }
 
 .shop-btn:hover{
-    background:#000;
+    background:#2f2d2d;
     color:#fff;
 }
 
@@ -1256,7 +1256,7 @@ body{
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    background-color: #000;
+    background-color: #2f2d2d;
 }
 
 
