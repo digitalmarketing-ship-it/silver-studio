@@ -20,6 +20,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carou
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+ <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 <style>
     .navbar{
     background:#000;
@@ -89,6 +91,75 @@ href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme
     height: 250px;
     object-fit: cover;
 }
+section{
+    margin-top: 100px;
+}
+.whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background: #25D366;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 32px;
+            text-decoration: none;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            z-index: 9999;
+            transition: 0.3s;
+            animation: pulse 1.8s infinite;
+        }
+
+        .whatsapp-float:hover {
+            background: #20ba5a;
+            color: #fff;
+            transform: scale(1.1);
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(37,211,102,0.7);
+            }
+            70% {
+                box-shadow: 0 0 0 18px rgba(37,211,102,0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(37,211,102,0);
+            }
+        }
+
+        .chat-tooltip {
+            position: fixed;
+            right: 90px;
+            bottom: 30px;
+            background: #fff;
+            padding: 10px 15px;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,.2);
+            font-size: 14px;
+            display: none;
+            z-index: 9998;
+        }
+
+        @media(max-width:768px){
+            .whatsapp-float{
+                width:55px;
+                height:55px;
+                font-size:28px;
+                right:15px;
+                bottom:15px;
+            }
+
+            .chat-tooltip{
+                right:75px;
+                bottom:22px;
+                font-size:13px;
+            }
+        }
 </style>
 </head>
 <body>
@@ -420,6 +491,7 @@ Login / Register
 
     </div>
 </section> 
+<marquee style="font-size:80px;font-weight:700;color: #959494;">92.5 Sterling Silver Collection | Pure Silver  | Pure Elegance | 92.5 Sterling Silver Collection | Pure Silver  | Pure Elegance | 92.5 Sterling Silver Collection | Pure Silver  | Pure Elegance | </marquee>
 <section class="new-arrivals py-5">
     <div class="container-fluid px-lg-5">
 
@@ -635,7 +707,7 @@ Login / Register
         </div>
     </div>
 </div>
-<section class="luxury-banner-section">
+<section class="luxury-banner-section" style="background-color:#000;">
     <div class="container-fluid p-0">
 
         <div class="row g-0 align-items-center">
@@ -668,10 +740,10 @@ Login / Register
                             for elegance, luxury and timeless beauty.
                         </p>
 
-                        <div class="ring-links">
+                        <!-- <div class="ring-links">
                             <a href="#">Wedding Rings</a>
                             <a href="#">Engagement Rings</a>
-                        </div>
+                        </div> -->
 
                         <a href="#" class="shop-btn">
                             Shop Now
@@ -690,7 +762,7 @@ Login / Register
 
                     <img src="images/elegant_daily.png" alt="">
 
-                    <div class="video-btn">
+                    <div class="video-btn" style="margin-left:-12px;">
                         <a href="#">
                             ▶
                         </a>
@@ -709,42 +781,57 @@ Login / Register
     <div class="container-fluid px-lg-5">
 
         <!-- Top Products -->
-        <div class="row g-4 mb-5">
+        <div class="row g-4 mb-5">  
+            <div class="text-center mb-4">
+                    <h2>Best Design Jewels</h2>
 
+                    <p>
+                        Premium handcrafted silver jewellery
+                        designed for timeless elegance.
+                    </p>
+</div>
             <div class="col-lg-3 col-md-6">
                 <div class="jewel-card">
-                    <img src="images/idol1.JPG" alt="">
-                    <div class="jewel-info">
+                    <img src="images/idol1.JPG" alt="" style="opacity:0.4;">
+                    <h6 style="margin-top:-50%;margin-left:35%;font-size:35px;font-weight:700;">Idols</h6>
+                    <a href="#" class="btn" style="margin-left: 33%;background-color: #fff;color: #000;">View More</a>
+                    <!-- <div class="jewel-info">
                         <h6>Idol</h6>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6">
                 <div class="jewel-card">
-                    <img src="images/earring1.JPG" alt="">
-                    <div class="jewel-info">
+                    <img src="images/earring1.JPG" alt="" style="opacity:0.4;">
+                            <h6 style="margin-top:-50%;margin-left:35%;font-size:35px;font-weight:700;">Earrings</h6>
+                            <a href="#" class="btn" style="margin-left: 33%;background-color: #fff;color: #000;">View More</a>
+                    <!-- <div class="jewel-info">
                         <h6>Earring</h6>
                         <span>₹9,500</span>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6">
                 <div class="jewel-card">
-                    <img src="images/necklace1.JPG" alt="">
-                    <div class="jewel-info">
+                    <img src="images/necklace1.JPG" alt="" style="opacity:0.4;">
+                      <h6 style="margin-top:-50%;margin-left:35%;font-size:35px;font-weight:700;">Necklace</h6>
+                            <a href="#" class="btn" style="margin-left: 33%;background-color: #fff;color: #000;">View More</a>
+                    <!-- <div class="jewel-info">
                         <h6>Necklace</h6>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6">
                 <div class="jewel-card">
-                    <img src="images/ring1.JPG" alt="">
-                    <div class="jewel-info">
+                    <img src="images/ring1.JPG" alt="" style="opacity:0.4;">
+                           <h6 style="margin-top:-50%;margin-left:35%;font-size:35px;font-weight:700;">Ring</h6>
+                            <a href="#" class="btn" style="margin-left: 33%;background-color: #fff;color: #000;">View More</a>
+                    <!-- <div class="jewel-info">
                         <h6>Ring</h6>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -752,7 +839,7 @@ Login / Register
 
         <!-- Center Showcase -->
 
-        <div class="showcase-wrapper">
+        <!-- <div class="showcase-wrapper">
 
             <button class="show-arrow left">
                 &#8592;
@@ -801,7 +888,7 @@ Login / Register
                 &#8594;
             </button>
 
-        </div>
+        </div> -->
 
     </div>
 </section>
@@ -877,7 +964,7 @@ Login / Register
 
     </div>
 </section> -->
-<section class="testimonial-section py-5">
+<section class="testimonial-section py-5"></section>
     <div class="container-fluid px-lg-5">
 
         <!-- Heading -->
@@ -1091,7 +1178,16 @@ Login / Register
             </div>
 
         </div>
+<div class="chat-tooltip text-dark" id="chatTooltip">
+    💬 Chat with us!
+</div>
 
+<a href="https://wa.me/917547004700"
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+</a>
         <hr>
 
         <!-- Bottom Footer -->
@@ -1155,6 +1251,19 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+</script>
+<script>
+    window.onload = function () {
+        const tooltip = document.getElementById("chatTooltip");
+
+        setTimeout(() => {
+            tooltip.style.display = "block";
+        }, 2000);
+
+        setTimeout(() => {
+            tooltip.style.display = "none";
+        }, 7000);
+    };
 </script>
 </body>
 </html>
